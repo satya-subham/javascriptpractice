@@ -44,4 +44,6 @@ function a(x,y){
 }
 
 let b = a;
-console.log(b(6,7));
+console.log(b(7,6));
+
+
