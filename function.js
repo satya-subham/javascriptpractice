@@ -20,3 +20,15 @@ let multiple=()=>{
 }
  let mul = multiple()
 console.log(d);
+
+
+//  ****************************************************************************
+//  IIFE Function (Immediately Invoked Function Expression) =============>>>>>>>>
+// *****************************************************************************
+
+(function div(){
+    let a = 10;
+    let b = 20;
+     return e = b/a;    
+})();
+console.log(e);
