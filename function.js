@@ -32,3 +32,16 @@ console.log(d);
      return e = b/a;    
 })();
 console.log(e);
+
+
+
+//  ********************************************************
+//  Functions Are FirstClass Citizen =============>>>>>>>>
+// ******************************************************
+
+function a(x,y){
+    return x+y;
+}
+
+let b = a;
+console.log(b(6,7));
